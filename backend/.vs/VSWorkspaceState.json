@@ -1,0 +1,15 @@
+{
+  "ExpandedNodes": [
+    "",
+    "\\LeaveManagement",
+    "\\LeaveManagement\\bin",
+    "\\LeaveManagement\\Controllers",
+    "\\LeaveManagement\\Data",
+    "\\LeaveManagement\\DTOs",
+    "\\LeaveManagement\\Models",
+    "\\LeaveManagement\\Properties",
+    "\\LeaveManagement\\Services"
+  ],
+  "SelectedNode": "\\LeaveManagement\\appsettings.json",
+  "PreviewInSolutionExplorer": false
+}

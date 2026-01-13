@@ -1,0 +1,116 @@
+[
+  {
+    "ContainingType": "LeaveManagement.Controllers.AuthController",
+    "Method": "Login",
+    "RelativePath": "api/Auth/login",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "dto",
+        "Type": "LeaveManagement.DTOs.LoginDto",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "LeaveManagement.Controllers.LeaveController",
+    "Method": "ApproveLeave",
+    "RelativePath": "api/Leave/{id}/approve",
+    "HttpMethod": "PUT",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": true
+      },
+      {
+        "Name": "dto",
+        "Type": "LeaveManagement.DTOs.ApproveLeaveDto",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "LeaveManagement.Controllers.LeaveController",
+    "Method": "RejectLeave",
+    "RelativePath": "api/Leave/{id}/reject",
+    "HttpMethod": "PUT",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": true
+      },
+      {
+        "Name": "dto",
+        "Type": "LeaveManagement.DTOs.ApproveLeaveDto",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "LeaveManagement.Controllers.LeaveController",
+    "Method": "GetAllLeaves",
+    "RelativePath": "api/Leave/all",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "LeaveManagement.Controllers.LeaveController",
+    "Method": "ApplyLeave",
+    "RelativePath": "api/Leave/apply",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "dto",
+        "Type": "LeaveManagement.DTOs.ApplyLeaveDto",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "LeaveManagement.Controllers.LeaveController",
+    "Method": "GetLeaveBalance",
+    "RelativePath": "api/Leave/balance",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "LeaveManagement.Controllers.LeaveController",
+    "Method": "GetMyLeaves",
+    "RelativePath": "api/Leave/my-leaves",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "LeaveManagement.Controllers.LeaveController",
+    "Method": "GetPendingLeaves",
+    "RelativePath": "api/Leave/pending",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  }
+]
